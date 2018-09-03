@@ -5,25 +5,25 @@ import java.util.Scanner;
 public class TestaProfessor {
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
-		
+		//TestaProfessor
 		String nome;
 		System.out.printf("Informe o seu nome: ");		
 		nome = ler.nextLine();		
 		
 		int matricula;
-		System.out.printf("Informe a sua matrícula: ");		
+		System.out.printf("Informe a sua matrÃ­cula: ");		
 		matricula = ler.nextInt();		
 		
 		float salario;
-		System.out.printf("Informe o seu salário: ");		
+		System.out.printf("Informe o seu salÃ¡rio: ");		
 		salario = ler.nextFloat();		
 
 		boolean temporario;
-		System.out.printf("Informe se é um professor temporário: ");		
+		System.out.printf("Informe se Ã© um professor temporÃ¡rio: ");		
 		temporario = ler.nextBoolean();
 				
 		int experiencia;
-		System.out.printf("Informe seu tempo de experiência: ");		
+		System.out.printf("Informe seu tempo de experiÃªncia: ");		
 		experiencia = ler.nextInt();
 		
 		float bonus;
@@ -31,7 +31,7 @@ public class TestaProfessor {
 		bonus = ler.nextFloat();		
 
 		float  gratificacao;
-		System.out.printf("Informe a sua gratificação: ");		
+		System.out.printf("Informe a sua gratificaÃ§Ã£o: ");		
 		gratificacao = ler.nextFloat();		
 		
 		float  desconto;
@@ -51,11 +51,11 @@ public class TestaProfessor {
 		salarioBruto = salarioBruto + (numeroDisciplinas * VL_DISCIPLINA);
 		
 		System.out.println("Nome: " + nome);
-		System.out.println("Matrícula: " + matricula);
-		System.out.println("Salário: " + salario);
-		System.out.println("Temporário? " + (temporario ? "sim" : "não"));
-//		System.out.printf("O salário bruto é R$%.2f", salarioBruto) ;
-		System.out.printf("O professor %s (%d)  é %s, pois ganha R$%.2f",
+		System.out.println("MatrÃ­cula: " + matricula);
+		System.out.println("SalÃ¡rio: " + salario);
+		System.out.println("TemporÃ¡rio? " + (temporario ? "sim" : "nÃ£o"));
+//		System.out.printf("O salÃ¡rio bruto Ã© R$%.2f", salarioBruto) ;
+		System.out.printf("O professor %s (%d)  Ã© %s, pois ganha R$%.2f",
 				nome, 
 				matricula,
 				(salarioBruto >= 10000 ? "rico" : "pobre"),
