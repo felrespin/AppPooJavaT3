@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TestaProfessor {
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
-		//TestaProfessor
+		//Testa
 		String nome;
 		System.out.printf("Informe o seu nome: ");		
 		nome = ler.nextLine();		
